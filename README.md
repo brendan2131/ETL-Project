@@ -6,10 +6,19 @@ https://www.kaggle.com/nadintamer/top-spotify-tracks-of-2018
 Billboard Top 100 1958-2018
 https://data.world/kcmillersean/billboard-hot-100-1958-2017/workspace/file?filename=Hot+Stuff.csv
 
-Top Spotify Table
-SongArtistPositionTime Duration 
-Billboard Top 100 Table
-SongArtist# of WeeksAvg PositionPeek Position
+Top Spotify Table Column Names
+* Song
+* Artist
+* Position
+* Time Duration
+
+Billboard Top 100 Table Column Names
+* Song
+* Artist
+* # of Weeks
+* AVG Position
+* Peek Position
+
 Necessary Transformations
 
 * Copy only the columns needed into a new DataFrame.
@@ -18,9 +27,16 @@ Necessary Transformations
 * Join on song name
 * Rename columns to fit the tables created in the database.
 
-Join Table
+Join Table Column Names
 
-Spotify PositionSongArtist# of Billboard weeksAvg Billboard positionTop Billboard positionSong Duration
+* Spotify Position
+* Song
+* Artist
+* # of Billboard Weeks
+* AVG Billboard Position
+* Peek Billboard Position
+* Song Duration
+
 
 
 
