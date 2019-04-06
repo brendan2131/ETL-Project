@@ -15,7 +15,7 @@ Top Spotify Table Column Names
 Billboard Top 100 Table Column Names
 * Song
 * Artist
-* # of Weeks
+* Number of Weeks
 * AVG Position
 * Peek Position
 
@@ -32,7 +32,7 @@ Join Table Column Names
 * Spotify Position
 * Song
 * Artist
-* # of Billboard Weeks
+* Number of Billboard Weeks
 * AVG Billboard Position
 * Peek Billboard Position
 * Song Duration
